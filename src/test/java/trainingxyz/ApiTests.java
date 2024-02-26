@@ -179,7 +179,6 @@ public class ApiTests {
 
     @Test
     public void checkBodyFieldsStatusCodeProductOneParam() {
-        //Use Matchers
         String endpoint = "http://localhost/api_testing/product/read_one.php";
 
         given().

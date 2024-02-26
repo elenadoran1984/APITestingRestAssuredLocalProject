@@ -14,7 +14,6 @@ public class Product {
 
     public Product(){}
 
-    //Used for GET requests
     public Product(int id, String name, String description, double price, int category_id, String category_name){
         setId(id);
         setName(name);
@@ -24,7 +23,6 @@ public class Product {
         setCategory_name(category_name);
     }
 
-    //Used for POST request
     public Product(String name, String description, double price, int category_id){
         setName(name);
         setDescription(description);
@@ -32,7 +30,6 @@ public class Product {
         setCategory_id(category_id);
     }
 
-    //Used for PUT requests
     public Product(int id, String name, String description, double price, int category_id){
         setId(id);
         setName(name);
@@ -41,7 +38,6 @@ public class Product {
         setCategory_id(category_id);
     }
 
-    //Used for DELETE requests
     public Product(int id){
         setId(id);
     }
