@@ -10,7 +10,7 @@ How you can serialize data to send as part of the request.
 
 How you can validate API responses and deserialize data received from the response.
 
-**Setup Environment: **
+**Setup Environment:**
 
 Java SE 17+
 
